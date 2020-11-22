@@ -1,6 +1,9 @@
 /*
 Para en un futuro poder relacionar las colecciones, en la colección libros debe haber un idAutor que sea el mismo idAutor 
 que está en la tabla Autores.
+PRIMERO habría que modificar la colección de los libros, y donde está el nombre del autor deberiamos cambiarlo por idAutor.
+SEGUNDO habría que crear una nueva coleccion llamada autores donde aparecen los datos de los autores así como su id, 
+que es el que se relacionará posteriormente a cada autor con su libro, mediante el idAutor
 */
 db.libros.insertOne(
     {Título: "Secuestrado",
