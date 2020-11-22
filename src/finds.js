@@ -105,14 +105,6 @@ y donde el segundo valor del array dimensiones_mm es menor que 160
 */
 db.libros.find( { $and: [ { "Géneros.1": { $regex: /^sus/i} }, { "Dimensiones_mm.1": { $lt: 160 } } ] } )
 /*
-Consulta que responde donde aparece el texto comprendido entre las comillas
-*/
-db.libros.find( { $text: { $search: "tu corazón se desboca por quien menos esperas sin que puedas frenarlo" } } )
-/*
-Consulta para hacer coincidir la frase exacta como un solo término
-*/
-db.libros.find( { $text: { $search: "\"inolvidable\"" } } )
-/*
 Consulta  aquellos documentos en la colección libros donde se obtiene de resto 0 diviendo cualquier número dentro del array en este caso entre 4 }
-*/
+EXPLICACIÓN EN LA DOCUMENTACIÓN DEL PROYECTO*/
 db.libros.find( { Dimensiones_mm: { $mod: [4, 0] } } )
