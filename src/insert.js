@@ -1,9 +1,10 @@
-db.libros.insertMany([
+    db.libros.insertMany([
     {Título: "Secuestrado",
     Editorial: "Alba Editorial",
     Autor: "Robert Louis Stevenson",
     Fecha: "19-09-2018",
     NºPáginas: 280,
+    Dimensiones_mm: [210, 140],
     Géneros: ["Novela", "Ficción especulativa", "Novela histórica", "Aventuras"],
     Sinópsis: "A la muerte en 1751 de su padre, maestro rural, el joven David Balfour, aleccionado por el párroco del pueblo, que le entrega una carta del difunto para llevar en mano «al distinguido caballero Ebenezer Balfour de Shaws», emprende un viaje a casa de su tío con la perspectiva de mejorar su condición con una herencia inesperada. Pero su destino resulta ser una lóbrega mansión y el señor Ebenezer «un ser miserable, encorvado y estrecho de hombros, con una cara que parecía de arcilla». Con falsas promesas lo embarca en un bergantín, con la intención de venderle como esclavo. Narrada por su protagonista, con la elegante prosa de Robert Louis Stevenson, Secuestrado (1886) es una novela de padecimiento y recompensa."},
 
@@ -12,6 +13,7 @@ db.libros.insertMany([
     Autor: "Arturo Pérez Reverte",
     Fecha: "06-10-2020",
     NºPáginas: 688,
+    Dimensiones_mm: [248, 162],
     Géneros: ["Ucronía", "Aventuras", "Novela bélica"],
     Sinópsis:"LA NUEVA NOVELA DE ARTURO PÉREZ-REVERTE Julio de 1938, miles de jóvenes combaten en la trágica batalla del Ebro. Sus nombres no son los que recuerda la Historia, pero cuanto les sucedió forma parte de nuestra memoria. «Es lo malo de estas guerras. Que oyes al enemigo llamar a su madre en el mismo idioma que tú.» Durante la noche del 24 al 25 de julio de 1938, la XI Brigada Mixta del ejército de la República cruza el río para establecer una cabeza de puente en Castellets del Segre. En las inmediaciones del pueblo, medio batallón de infantería, un tabor marroquí y una compañía de la Legión defienden la zona. Está a punto de comenzar la batalla del Ebro, la más cruda y sangrienta que se libró nunca en suelo español. Combinando de forma magistral la ficción con datos históricos y testimonios personales, Arturo Pérez-Reverte sitúa al lector, con sobrecogedor realismo, entre quienes, voluntarios o a la fuerza, lucharon en los frentes de batalla de la Guerra Civil. Sus nombres no son los que recuerda la Historia, pero cuanto les sucedió resuena en estas páginas con el dramatismo de una memoria que nos pertenece a todos. Ésta no es una novela sobre la Guerra Civil, sino sobre los hombres y mujeres que combatieron en ella. La historia de los padres y abuelos de numerosos españoles de hoy."},
 
@@ -20,7 +22,8 @@ db.libros.insertMany([
     Autor: "Ken Follett",
     Fecha: "15-09-2020",
     NºPáginas: 936,
-    Géneros: ["Ficción", "Saga"],
+    Dimensiones_mm: [237, 164],
+    Géneros: ["Ciencia ficción", "Saga"],
     Sinópsis:"LA PRECUELA DEL ÉXITO MUNDIAL LOS PILARES DE LA TIERRA En Las tinieblas y el alba, Ken Follett embarca al lector en un épico viaje que termina donde Los pilares de la Tierra comienza. Año 997, finales de la Edad Oscura. Inglaterra se enfrenta a los ataques de los galeses por el oeste y de los vikingos por el este. La vida es difícil y aquellos que ostentan algo de poder lo ejercen con puño de hierro y, a menudo, en conflicto con el propio rey. En estos tiempos turbulentos, tres vidas se entrecruzan: el joven constructor de barcos Edgar, a punto de fugarse con la mujer a la que ama, comprende que su futuro será muy diferente a lo que había imaginado cuando su hogar es arrasado por los vikingos; Ragna, la rebelde hija de un noble normando, acompaña a su marido a una nueva tierra al otro lado del mar solo para descubrir que las costumbres allí son peligrosamente distintas; y Aldred, un monje idealista, sueña con transformar su humilde abadía en un centro de saber admirado en toda Europa. Los tres se verán abocados a un enfrentamiento con el despiadado obispo Wynstan, decidido a aumentar su poder a cualquier precio. El gran maestro de la narrativa de acción y suspense nos transporta al ocaso de una época violenta y brutal y al comienzo de un nuevo tiempo en un monumental y emocionante relato de ambición y rivalidad, nacimiento y muerte, amor y odio."},
     
     {Título: "La vida contada por un sapiens a un neandertal",
@@ -28,6 +31,7 @@ db.libros.insertMany([
     Autor: "Juan José Millas",
     Fecha: "23-09-2020",
     NºPáginas: 224,
+    Dimensiones_mm: [240, 154],
     Géneros: ["Ciencias", "Evolucionismo"],
     Sinópsis:"El ingenio de Millás y la sabiduría de Arsuaga unidos para contar la vida como la mejor de las historias. «Una maravilla. Un libro lleno de humor y de bondad. Sí, bondad. Un libro que busca entender el misterio de la vida.»Manuel Vilas «-Tú y yo podríamos asociarnos para hablar de la vida; levantaríamos un gran relato sobre la existencia. ¿Lo hacemos? -dijo el escritor.-Lo hacemos -contestó el paleontólogo.» Hace años que el interés por entender la vida, sus orígenes y su evolución resuena en la cabeza de Juan José Millás, de manera que se dispuso a conocer, junto a uno de los mayores especialistas de este país en la materia, Juan Luis Arsuaga, por qué somos como somos y qué nos ha llevado hasta donde estamos. La sabiduría del paleontólogo se combina en este libro con el ingenio y la mirada personal y sorprendente que tiene el escritor sobre la realidad. Porque Millás es un neandertal (o eso dice), y Arsuaga, a sus ojos, un sapiens. Así, a lo largo de muchos meses, los dos visitaron distintos lugares, muchos de ellos escenarios comunes de nuestra vida cotidiana, y otros, emplazamientos únicos donde todavía se pueden ver los vestigios de lo que fuimos, del lugar del que venimos. En esas salidas, que al lector pueden recordarle a las de don Quijote y Sancho, el sapiens trató de enseñar al neandertal cómo pensar como un sapiens y, sobre todo, que la prehistoria no es cosa del pasado: las huellas de la humanidad a través de los milenios se pueden encontrar en cualquier lugar, desde una cueva o un paisaje hasta un parque infantil o una tienda de peluches"},
    
@@ -36,6 +40,7 @@ db.libros.insertMany([
     Autor: "Blanca García",
     Fecha: "08-10-2020",
     NºPáginas: 272,
+    Dimensiones_mm: [240, 154],
     Géneros: ["Libro de cocina","Salud y Dietas","Medicina divulgativa"],
     Sinópsis:"La nutricionista Blanca García-Orea nos descubre una forma revolucionaria de alcanzar el bienestar emocional y físico: cuidar la microbiota intestinal. Muchas veces sufrimos cansancio, mal humor, ansiedad, estrés e incluso molestias digestivas que tratamos solo con medicamentos. Blanca García-Orea, una de las nutricionistas más influyentes en nuestro país, comparte las claves para entender cómo influyen las bacterias intestinales en tus pensamientos, en tus patrones de conducta y su papel en las enfermedades y en la calidad de vida. La buena noticia es que la microbiota intestinal es modificable y, aunque siempre hemos oído que nacemos con unos genes determinados que marcarán nuestro destino, ahora sabemos que, aunque tu código genético sea desfavorable, si haces las cosas bien y sigues unos buenos hábitos de vida (buena alimentación, ejercicio físico, descansar adecuadamente, no alcohol ni tabaco, etc.), no tienes por qué sufrir determinadas enfermedades, aun teniendo predisposición genética a sufrirlas."},
     
@@ -44,6 +49,7 @@ db.libros.insertMany([
     Autor: "Megan Maxwell",
     Fecha: "29-10-2020",
     NºPáginas: 672,
+    Dimensiones_mm: [240, 154],
     Géneros: ["Literatura erótica", "Novela rosa", "Romance contemporáneo"],
     Sinópsis:"Vuelve a soñar con la nueva novela de la autora nacional más vendida. Can Drogo, piloto e hijo del dueño de la empresa aeronáutica High Drogo, es un hombre alto, guapo, adinerado, simpático… Puede elegir a la mujer que desee, y aunque disfruta de esa «magia especial» con la que le ha dotado la vida, en su interior siente que todas lo aburren. Por su parte, Sonia Becher es la mayor de cuatro hermanas y la propietaria de una empresa de eventos y de una agencia de modelos. Can ve en ella a una chica divertida, atrevida, sin tabúes, con la que se puede hablar de todo, incluido de sexo, pero poco más, pues considera que no es su tipo. Hasta que un día las sonrisas y las miradas de la joven no van dirigidas a él, y eso, sin saber por qué, comienza a molestarlo. ¿En serio Sonia va a sonreír a otros hombres estando él delante? Sexo. Familia. Diversión. Locura. Todo esto es lo que vas a encontrar en ¿A qué estás esperando?, una novela que te hará ver que, en ocasiones, tu corazón se desboca por quien menos esperas sin que puedas frenarlo."},
    
@@ -52,6 +58,7 @@ db.libros.insertMany([
     Autor: "Rosa Montero",
     Fecha: "27-08-2020",
     NºPáginas: 328,
+    Dimensiones_mm: [240, 154],
     Géneros: ["Novela contemporánea", "Narrativa española"],
     Sinópsis:"La nueva novela de Rosa Montero, Premio Nacional de las Letras Españolas Después de cada derrota puede haber un nuevo comienzo. Porque la suerte sólo es buena si decidimos que lo sea. «La alegría es un hábito.» ¿Qué impulsa a un hombre a bajarse anticipadamente de un tren y ocultarse en un pueblo de mala muerte? ¿Quiere recomenzar su vida o pretende acabar con ella? Tal vez esté huyendo de alguien, o de algo, o incluso de sí mismo, y el destino le ha traído a Pozonegro, un antiguo centro hullero que ahora agoniza. Por delante de su casa pasan trenes que pueden ser salvación o condena, mientras los perseguidores estrechan el cerco. La perdición parece estar más próxima cada día. Pero este hombre, Pablo, también conoce gente en aquel lugar maldito, como la luminosa, incompleta y algo chiflada Raluca, que pinta cuadros de caballos y tiene un secreto. Allí todos arrastran algún secreto, algunos más oscuros y peligrosos que otros. Y algunos simplemente ridículos. También hay humor en ese pueblo triste, porque la vida tiene mucho de comedia. Y gente que finge ser quien no es, o que oculta lo que planea. Es el gran juego de las falsedades."},
     
@@ -60,6 +67,7 @@ db.libros.insertMany([
     Autor: "Rosa Montero",
     Fecha: "10-03-2020",
     NºPáginas: 400,
+    Dimensiones_mm: [190, 125],
     Géneros: ["Ciencia ficción", "Literatura", "Narrativa en bolsillo","Narrativa española del XIX al XXI en bolsillo"],
     Sinópsis:"Independiente, poco sociable, intuitiva y poderosa, la detective replicante Bruna Husky sólo tiene un punto vulnerable: su gran corazón. Cuando el inspector Lizard desaparece sin dejar rastro, la detective se lanza a una búsqueda desesperada y contrarreloj del policía. Su investigación la lleva a una colonia remota de Nuevos Antiguos, una secta que reniega de la tecnología, así como a rastrear los orígenes de una oscura trama de poder que se remonta al siglo XVI. Mientras tanto, la situación del mundo se hace más y más convulsa, la crispación populista aumenta y la guerra civil parece inevitable. Bruna tendrá que hacer frente a su mayor temor, la muerte, en una historia que es un certero y deslumbrante retrato de los tiempos en que vivimos. Los tiempos del odio es una novela intensa y de acción trepidante, en la que están presentes los grandes temas de Rosa Montero: el paso del tiempo, la necesidad de los otros para que la vida merezca la pena, la pasión como rebelión frente a la muerte, los excesos del poder y el horror de los dogmas."},
     
@@ -68,6 +76,7 @@ db.libros.insertMany([
     Autor: "Rosa Montero",
     Fecha: "03-06-2014",
     NºPáginas: 240,
+    Dimensiones_mm: [190, 125],
     Géneros: ["Ciencia ficción", "Literatura", "Narrativa en bolsillo","Narrativa española del XIX al XXI en bolsillo"],
     Sinópsis:"Cuando Rosa Montero leyó el maravilloso diario que Marie Curie comenzó tras la muerte de su esposo, y que se incluye al final de este libro, sintió que la historia de esa mujer fascinante que se enfrentó a su época le llenaba la cabeza de ideas y emociones. La ridícula idea de no volver a verte nació de ese incendio de palabras, de ese vertiginoso torbellino. Al hilo de la extraordinaria trayectoria de Curie, Rosa Montero construye una narración a medio camino entre el recuerdo personal y la memoria de todos, entre el análisis de nuestra época y la evocación íntima. Son páginas que hablan de la superación del dolor, de las relaciones entre hombres y mujeres, del esplendor del sexo, de la buena muerte y de la bella vida, de la ciencia y de la ignorancia, de la fuerza salvadora de la literatura y de la sabiduría de quienes aprenden a disfrutar de la existencia con plenitud y con ligereza. Vivo, libérrimo y original, este libro inclasificable incluye fotos, remembranzas, amistades y anécdotas que transmiten el primitivo placer de escuchar buenas historias. Un texto auténtico, emocionante y cómplice que te atrapará desde sus primeras páginas."},
     
@@ -76,6 +85,7 @@ db.libros.insertMany([
     Autor: "Rosa Montero",
     Fecha: "07-09-2017",
     NºPáginas: 240,
+    Dimensiones_mm: [240, 154],
     Géneros: ["Ciencia ficción", "Literatura", "Narrativa en bolsillo","Narrativa española del XIX al XXI en bolsillo"],
     Sinópsis:"Vuelve Rosa Montero con La carne, una intriga emocional que nos habla del paso del tiempo, del miedo a la muerte, del fracaso pero también de la esperanza, de la necesidad de amar y de la gloriosa tiranía del sexo, de la vida entendida como un lance fugaz en el que devorar o ser devorado. PREMIO NACIONAL DE LAS LETRAS 2017 «Al final todo acaba por desembocar en el amor. Y en el daño.» Una noche de ópera, Soledad contrata a un gigoló para que la acompañe a la función y así poder dar celos a un examante. Pero un suceso violento e imprevisto lo complica todo y marca el inicio de una relación inquietante, volcánica y tal vez peligrosa. Ella tiene sesenta años; el gigoló, treinta y dos. Desde el humor, pero también desde la rabia y la desesperación de quien se rebela contra los estragos del tiempo, el relato de la vida de Soledad se entreteje con las historias de los escritores malditos de la exposición que está organizando para la Biblioteca Nacional. La carne es una novela audaz y sorprendente, la más libre y personal de las que ha escrito Rosa Montero"},
     
@@ -84,6 +94,7 @@ db.libros.insertMany([
     Autor: "Arturo Pérez Reverte",
     Fecha: "18-09-2019",
     NºPáginas: 376,
+    Dimensiones_mm: [240, 154],
     Géneros: ["Aventura histórica", "Ficción histórica"],
     Sinópsis:"EL MEJOR LIBRO DEL AÑO 2019 PARA LA CRÍTICA Y LOS LECTORES No tenía patria ni rey, sólo un puñado de hombres fieles.No tenían hambre de gloria, sólo hambre.Así nace un mito.Así se cuenta una leyenda. «En él se funden de un modo fascinante la aventura, la historia y la leyenda. Hay muchos Cid en la tradición española, y éste es el mío.»Arturo Pérez-Reverte «El arte del mando era tratar con la naturaleza humana, y él había dedicado su vida a aprenderlo. Colgó la espada del arzón, palmeó el cuello cálido del animal y echó un vistazo alrededor: sonidos metálicos, resollar de monturas, conversaciones en voz baja. Aquellos hombres olían a estiércol de caballo, cuero, aceite de armas, sudor y humo de leña. »Rudos en las formas, extraordinariamente complejos en instintos e intuiciones, eran guerreros y nunca habían pretendido ser otra cosa. Resignados ante el azar, fatalistas sobre la vida y la muerte, obedecían de modo natural sin que la imaginación les jugara malas pasadas. Rostros curtidos de viento, frío y sol, arrugas en torno a los ojos incluso entre los más jóvenes, manos encallecidas de empuñar armas y pelear. Jinetes que se persignaban antes de entrar en combate y vendían su vida o muerte por ganarse el pan. Profesionales de la frontera, sabían luchar con crueldad y morir con sencillez. »No eran malos hombres, concluyó. Ni tampoco ajenos a la compasión. Sólo gente dura en un mundo duro."},
     
@@ -92,6 +103,7 @@ db.libros.insertMany([
     Autor: "Javier Castillo",
     Fecha: "12-03-2020",
     NºPáginas: 512,
+    Dimensiones_mm: [230, 155],
     Géneros: ["Ciencia ficción", "Suspense"],
     Sinópsis:"JAVIER CASTILLO VUELVE A LO GRANDE El thriller perfecto que cambia las reglas del género. El desfile más famoso del planeta. Una niña de tres años desaparecida. ¿Dónde está Kiera Templeton? Nueva York, 1998, cabalgata de Acción de Gracias. Kiera Templeton, desaparece entre la multitud. Tras una búsqueda frenética por toda la ciudad, alguien encuentra unos mechones de pelo junto a la ropa que llevaba puesta la pequeña.En 2003, el día que Kiera habría cumplido ocho años, sus padres, Aaron y Grace Templeton, reciben en casa un extraño paquete: una cinta VHS con la grabación de un minuto de Kiera jugando en una habitación desconocida.Tras vender más de 650.000 ejemplares de sus anteriores novelas, Javier Castillo vuelve a poner en jaque la cordura con La chica de nieve, un oscuro viaje a las profundidades de Miren Triggs, una estudiante de periodismo que inicia una investigación paralela y descubre que tanto su vida como la de Kiera están llenas de incógnitas."},
     
@@ -100,6 +112,7 @@ db.libros.insertMany([
     Autor: "Javier Castillo",
     Fecha: "09-05-2019",
     NºPáginas: 456,
+    Dimensiones_mm: [190, 125],
     Géneros: ["Ciencia ficción", "Suspense"],
     Sinópsis:"Amor, odio, destino, extrañas prácticas, intriga y acción trepidante inundan las páginas de una novela que se ha convertido en todo un fenómeno editorial antes de su publicación en papel. «A veces el destino nos pone a prueba para que sepamos que existe». Centro de Boston, 24 de diciembre, un hombre camina desnudo con la cabeza decapitada de una joven. El doctor Jenkins, director del centro psiquiátrico de la ciudad, y Stella Hyden, agente de perfiles del FBI, se adentrarán en una investigación que pondrá en juego sus vidas, su concepción de la cordura y que los llevará hasta unos sucesos fortuitos ocurridos en el misterioso pueblo de Salt Lake diecisiete años atrás. Con un estilo ágil lleno de referencias literarias -García Márquez, Auster, Orwell o Stephen King- e imágenes impactantes, Javier Castillo construye un thriller romántico narrado a tres tiempos que explora los límites del ser humano y rompe los esquemas del género de suspense. "},
    
@@ -108,6 +121,7 @@ db.libros.insertMany([
     Autor: "Javier Castillo",
     Fecha: "09-05-2019",
     NºPáginas: 432,
+    Dimensiones_mm: [190, 125],
     Géneros: ["Ciencia ficción", "Suspense", "Misterio"],
     Sinópsis:"Después del éxito arrollador de El día que se perdió la cordura, con más de 100.000 ejemplares vendidos y una gran acogida internacional, Javier Castillo regresa con una nueva novela que explora los límites del amor. «A veces el amor te pone en el camino equivocado para que sepas cuánto duele». A las doce de la mañana del 14 de diciembre, una joven llena de magulladuras se presenta desnuda en las instalaciones del FBI de Nueva York con varias notas amarillentas en la mano. El inspector Bowring, jefe de la Unidad de Criminología, intentará descubrir qué oculta la joven y su conexión con otro caso, el de una mujer que aparece decapitada horas más tarde y cuyo nombre coincide con el que estaba escrito en una de las notas. A medida que avance en la investigación se dará cuenta de que este caso abre antiguas heridas difíciles de cicatrizar. Después del éxito arrollador de El día que se perdió la cordura, con más de 100.000 ejemplares vendidos y una gran acogida internacional, Javier Castillo regresa con una nueva novela que explora los límites del amor. Adictiva, trepidante y absorbente, El día que se perdió el amor es una inyección de adrenalina, una experiencia única de lectura, un thriller diferente y adictivo que da continuidad al fenómeno editorial del año."},
     
@@ -116,6 +130,7 @@ db.libros.insertMany([
     Autor: "Javier Castillo",
     Fecha: "14-03-2019",
     NºPáginas: 448,
+    Dimensiones_mm: [230, 153],
     Géneros: ["Ciencia ficción", "Suspense", "Misterio"],
     Sinópsis:"ras el éxito arrollador de El día que se perdió la cordura y El día que se perdió el amor, con más de 350.000 ejemplares vendidos, Javier Castillo, maestro del suspense, despliega su virtuosismo narrativo para profundizar en los misterios de lo cotidiano, allí donde permanecen ocultos los miedos más primarios. Una experiencia de lectura palpitante y enérgica que corta la respiración. «Javier Castillo es sin duda el nuevo fenómeno de la literatura europea».JOËL DICKER Un fin de semana en una cabaña en el bosque.Un matrimonio en crisis.Una misteriosa desaparición. ¿Qué ha sucedido con Miranda Huff? Una pareja en crisis decide pasar un fin de semana de retiro en una cabaña en el bosque en Hidden Springs, pero cuando Ryan Huff llega para encontrarse con Miranda la puerta está abierta, hay dos copas de vino sobre la mesa, nadie en el interior y el cuarto de baño se encuentra lleno de sangre. Todo lo que sucedió con Miranda Huff es un thriller psicológico de ritmo vertiginoso donde parece imposible encontrar a Miranda con vida. Lo que Ryan desconoce es que la desaparición de su mujer conecta su historia con la de su mentor, el gran James Black, y con el descubrimiento del cadáver de una mujer desaparecida treinta años atrás en la misma zona."},
    
@@ -124,6 +139,7 @@ db.libros.insertMany([
     Autor: "Anne Frank",
     Fecha: "08-01-2018",
     NºPáginas: 388,
+    Dimensiones_mm: [190, 124],
     Géneros: ["Historia", "Autobiografía", "Biografía", "Novela gráfica"],
     Sinópsis:"Esta es la edición definitiva del célebre Diario de Anne Frank. Su texto amplía en una cuarta parte las ediciones anteriores y ofrece una visión completa y fidedigna de la terrible odisea vivida durante la Segunda Guerra Mundial por la familia Frank Un testimonio único sobre el horror y la barbarie nazi, y sobre los sentimientos y experiencias que vivió una niña judía recluida con su familia para huir del Holocausto Tras la invasión de Holanda, los Frank, comerciantes judíos alemanes emigrados a Amsterdam en 1933, se ocultaron de la Gestapo en una buhardilla anexa al edificio donde el padre de Anne tenía sus oficinas. Eran ocho personas y permanecieron recluidas desde junio de 1942 hasta agosto de 1944, fecha en que fueron detenidas y enviadas a campos de concentración. En ese lugar y en las más precarias condiciones, Anne, a la sazón una niña de trece años, escribió su estremecedor Diario: un testimonio único en su género sobre el horror y la barbarie nazi, y sobre los sentimientos y experiencias de la propia Anne y sus acompañantes. Anne murió en el campo de Bergen-Belsen en marzo de 1945. "},
 
@@ -132,6 +148,7 @@ db.libros.insertMany([
     Autor: "Eva García Sáenz de Urturi",
     Fecha: "05-11-2020",
     NºPáginas: 416,
+    Dimensiones_mm: [240, 154],
     Géneros: ["Ciencia ficción", "Supense"],
     Sinópsis:"1137. El duque de Aquitania —la región más codiciada de Francia— aparece muerto en Compostela. El cuerpo queda de color azul y con la marca del «águila de sangre», una ancestral tortura normanda. Su hija Eleanor decide vengarse y para ello se casa con el hijo del que cree su asesino: Luy VI el Gordo, rey de Francia.Pero el propio rey muere durante la boda en idénticas circunstancias. Eleanor y Luy VII intentarán averiguar, junto con los gatos aquitanos —los épicos espías de los duques—, quién quiere a los inexpertos reyes en el trono.Décadas antes de la muerte del duque de Aquitania, un niño sin nombre es abandonado en un bosque por sus cinco madres. Acaso un monstruo, o tal vez un santo, el pequeño superviviente acabará convirtiéndose en uno de los hombres más excepcionales del medievo europeo. Un cautivador thriller histórico que atraviesa un siglo repleto de venganzas, incestos y batallas. Un turbador misterio en torno a tres vidas que forjarán lo que más tarde se llamará Europa. Vuelve la autora de la exitosa Trilogía de la Ciudad Blanca (El silencio de la ciudad blanca, Los ritos del agua, Los señores del tiempo)."},
 
@@ -140,7 +157,8 @@ db.libros.insertMany([
     Autor: "Benjamín Labatut",
     Fecha: "02-09-2020",
     NºPáginas: 224,
-    Géneros: ["Biografía", "Ciencia ficción","Novela contemporánea", "Narrativa hispanoamericana"],
+    Dimensiones_mm: [210, 140],
+    Géneros: ["Biografía", "Ciencia ficción", "Novela contemporánea", "Narrativa hispanoamericana"],
     Sinópsis:"La aventura de la ciencia convertida en literatura. Un libro inclasificable y poderosamente seductor. Las narraciones incluidas en este libro singular y fascinante tienen un hilo conductor que las entrelaza: la ciencia, con sus búsquedas, tentativas, experimentos e hipótesis, y los cambios que –para bien y para mal– introduce en el mundo y en nuestra visión de él.Por estas páginas desﬁlan descubrimientos reales que forman una larga cadena perturbadora: el primer pigmento sintético moderno, el azul de Prusia, creado en el siglo XVIII gracias a un alquimista que buscaba el Elixir de la Vida mediante crueles experimentos con animales vivos, se convierte en el origen del cianuro de hidrógeno, gas mortal que el químico judío alemán Fritz Haber, padre de la guerra química, empleó para elaborar el pesticida Zyklon, sin saber que los nazis acabarían utilizándolo en los campos de exterminio para asesinar a miembros de su propia familia"},
     
     {Título: "La vida mentirosa de los adultos",
@@ -148,6 +166,7 @@ db.libros.insertMany([
     Autor: "Elena Ferrante",
     Fecha: "01-09-2020",
     NºPáginas: 368,
+    Dimensiones_mm: [210, 140],
     Géneros: ["Novela contemporánea", "Narrativa extranjera"],
     Sinópsis:"LA AUTORA DE LA SAGA DOS AMIGAS VUELVE PARA RECORDARNOS POR QUÉ FASCINA A 30.000.000 DE LECTORES EN 42 PAÍSES Y ES EL MAYOR ENIGMA DE LA LITERATURA ACTUAL Uno de los 100 libros del año según Time «Ferrante es una contadora de historias nata, tan extraordinaria y adictiva como mi también adorado John Irving, una escritora clásica en el sentido maravilloso de la palabra.»Milena Busquets «Dos años antes de irse de casa, mi padre le dijo a mi madre que yo era muy fea». Así empieza esta novela extraordinaria sobre el descubrimiento de la mentira, el amor y el sexo, narrada por la inolvidable voz de Giovanna, una joven empeñada en conocer a su tía Vittoria, incomprensiblemente borrada de las conversaciones y álbumes de fotografías. Con ello desencadenará sin saberlo el desmoronamiento de su familia intelectual y burguesa, perfecta solo en apariencia. Maestra absoluta de la intriga, Ferrante siembra la trama de sorpresas y anuda prodigiosamente la misteriosa historia familiar y amorosa en torno a una pulsera que pasa de mano en mano. Nadie como ella para describir la complejidad de las pasiones humanas y todas las intermitencias del pensamiento y el corazón."},
 
@@ -156,6 +175,7 @@ db.libros.insertMany([
     Autor: "María Reig",
     Fecha: "27-08-2020",
     NºPáginas: 752,
+    Dimensiones_mm: [237, 164],
     Géneros: ["Ciencia ficción", "Novela contemporánea", "Narrativa española"],
     Sinópsis:"Vuelve María Reig, autora de Papel y tintaLa nueva voz de la narrativa femenina Un internado en mitad del bosque.Una joven en busca de respuestas.Un gran misterio por resolver. Suiza, 1939. Santa Ursula acoge a alumnas extranjeras para el nuevo curso. Charlotte, una de las veteranas, será la encargada de integrar a Sara Suárez. Con el paso de los días, las jóvenes fraguan una amistad que se verá interrumpida por la guerra. Oxford, década de 1970. Caroline Eccleston prepara su tesis sobre los internados suizos en la Segunda Guerra Mundial. El hallazgo del cierre inesperado de uno de ellos enciende la curiosidad de Carol, que no duda en viajar a Zúrich para encontrar respuestas. Después del éxito de Papel y tinta, María Reig vuelve con una novela conmovedora narrada con fuerza y ritmo. Una promesa de juventud es la deslumbrante recreación de un tiempo de sombra que cincela la personalidad de unas adolescentes que intentan sobrevivir en un mundo lleno de demonios."},
 
@@ -164,6 +184,7 @@ db.libros.insertMany([
     Autor: "Alice Kellen",
     Fecha: "25-08-2020",
     NºPáginas: 400,
+    Dimensiones_mm: [240, 154],
     Géneros: ["Ciencia ficción", "Narrativa romántica"], 
     Sinópsis:"Cuando Sophie se enamoró de Simon, supo que juntos tejerían una inolvidable historia llena de vivencias y canciones, pero todo acabó una noche de enero y sus sueños se quedaron congelados en aquel invierno eterno, el más largo y frío que nunca pudo imaginar. Hasta que el hielo empieza a derretirse para que Ámsterdam se vista de primavera. Entonces, Sophie descubre que Koen estará a su lado cuando decida alzar el vuelo, que su familia y amigos son su brújula, que ganar requiere de ingenio y que el corazón sigue sus propias reglas."
     }])
